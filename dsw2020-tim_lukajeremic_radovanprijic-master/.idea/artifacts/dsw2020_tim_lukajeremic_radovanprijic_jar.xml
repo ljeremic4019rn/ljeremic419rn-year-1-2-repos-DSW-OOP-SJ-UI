@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dsw2020-tim_lukajeremic_radovanprijic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dsw2020_tim_lukajeremic_radovanprijic_jar</output-path>
+    <root id="archive" name="dsw2020-tim_lukajeremic_radovanprijic.jar">
+      <element id="module-output" name="dsw2020-tim_lukajeremic_radovanprijic" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lombok.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

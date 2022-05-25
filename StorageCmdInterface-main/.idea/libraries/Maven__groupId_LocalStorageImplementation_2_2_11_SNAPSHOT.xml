@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: groupId:LocalStorageImplementation:2.2.11-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/groupId/LocalStorageImplementation/2.2.11-SNAPSHOT/LocalStorageImplementation-2.2.11-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/groupId/LocalStorageImplementation/2.2.11-SNAPSHOT/LocalStorageImplementation-2.2.11-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/groupId/LocalStorageImplementation/2.2.11-SNAPSHOT/LocalStorageImplementation-2.2.11-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

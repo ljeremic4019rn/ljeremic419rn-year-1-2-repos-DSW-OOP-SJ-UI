@@ -1,0 +1,79 @@
+<div class="d-flex flex-column justify-content-between flex-grow-1 min-vh-100">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a [routerLink]="'/'" class="navbar-brand">Računovodstvo</a>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+          <ul class="navbar-nav" role="tablist">
+            <!-- FINANSIJSKA_OPERATIVA -->
+			<div ngbDropdown class="d-inline-block">
+			  <a [hidden]="!canFinOp()" ngbDropdownToggle
+				class="nav-link active" aria-current="page">Finansijska operativa</a>
+
+			  <ul ngbDropdownMenu>
+
+				<a ngbDropdownItem [routerLink]="'KUF'">Knjiga ulaznih faktura</a>
+
+				<a ngbDropdownItem [routerLink]="'KIF'">Knjiga izlaznih faktura</a>
+
+				<a ngbDropdownItem [routerLink]="'add-new-invoice'">Dodaj fakturu</a>
+
+				<a ngbDropdownItem [routerLink]="'add-new-client'">Komitenti</a>
+
+			  </ul>
+			</div>
+
+			<!-- FINANSIJSKO_KNJIGOVODSTVO -->
+            <div ngbDropdown class="d-inline-block">
+              <a [hidden]="!canFinKnj()"
+                ngbDropdownToggle class="nav-link active" aria-current="page">Finansijsko knjigovodstvo</a>
+
+              <ul ngbDropdownMenu>
+
+				<a ngbDropdownItem [routerLink]="'account-plan'">Kontni plan</a>
+
+                <a ngbDropdownItem [routerLink]="'bookkeeping-journal'">Dnevnik knjiženja</a>
+
+                <a ngbDropdownItem [routerLink]="'sva-knjizenja'">Glavna knjiga</a>
+
+                <a ngbDropdownItem [routerLink]="'knjizenje-widget'">Knjiženje</a>
+
+				<a ngbDropdownItem [routerLink]="'bruto-bilans'">Bruto bilans</a>
+
+              </ul>
+            </div>
+
+			<!-- OBRACUN_ZARADE -->
+            <div ngbDropdown class="d-inline-block">
+              <a [hidden]="!canObrZa()" ngbDropdownToggle class="nav-link active" aria-current="page">Obračun zarade</a>
+
+              <ul ngbDropdownMenu>
+
+				<a ngbDropdownItem [routerLink]="'zaposleni/:id'">Profil zaposlenog</a>
+
+                <a ngbDropdownItem [routerLink]="'zaposleni'">Zaposleni</a>
+
+                <a ngbDropdownItem [routerLink]="'plate'">Plata</a>
+
+				<a ngbDropdownItem [routerLink]="'koeficijenti'">Koeficijenti za obračun poreza i doprinosa</a>
+
+              </ul>
+            </div>
+
+			<!-- ADMIN -->
+            <li><a [hidden]="!isAdmin()" [routerLink]="'manage-users'" class="nav-link active"
+                aria-current="page">Upravljanje korisnicima</a></li>
+          </ul>
+          <button [hidden]="!loggedIn()" (click)="logout()" type="button" class="btn btn-primary">Odjava</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  <footer class="d-flex justify-content-center bg-dark text-white gap-3">
+    <div>© 2022 SI Računovodstvo</div>
+  </footer>
+</div>

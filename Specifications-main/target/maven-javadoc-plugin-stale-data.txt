@@ -1,0 +1,68 @@
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Radovan/Documents/GitHub/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Radovan/Documents/GitHub/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Specifications 2.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Specifications 2.0-SNAPSHOT API'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/Privileges.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/Storage.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/StorageConfiguration.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/StorageInitialization.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/StorageManager.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/StorageOperations.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/StorageSettings.java'
+'C:/Users/Radovan/Documents/GitHub/src/main/java/User.java'
+C:\Users\Radovan\Documents\GitHub\src\main\java\Privileges.java = 1636381808706
+C:\Users\Radovan\Documents\GitHub\src\main\java\Storage.java = 1636381808635
+C:\Users\Radovan\Documents\GitHub\src\main\java\StorageConfiguration.java = 1636572089856
+C:\Users\Radovan\Documents\GitHub\src\main\java\StorageInitialization.java = 1636382282754
+C:\Users\Radovan\Documents\GitHub\src\main\java\StorageManager.java = 1636381808611
+C:\Users\Radovan\Documents\GitHub\src\main\java\StorageOperations.java = 1636572089840
+C:\Users\Radovan\Documents\GitHub\src\main\java\StorageSettings.java = 1636381808601
+C:\Users\Radovan\Documents\GitHub\src\main\java\User.java = 1636381808651
+C:\Users\Radovan\Documents\GitHub\src\main\java = 1636572089856
+C:\Users\Radovan\Documents\GitHub\target\apidocs\allclasses-index.html = 1636572283233
+C:\Users\Radovan\Documents\GitHub\target\apidocs\allpackages-index.html = 1636572283248
+C:\Users\Radovan\Documents\GitHub\target\apidocs\element-list = 1636572283101
+C:\Users\Radovan\Documents\GitHub\target\apidocs\help-doc.html = 1636572283288
+C:\Users\Radovan\Documents\GitHub\target\apidocs\index-all.html = 1636572283288
+C:\Users\Radovan\Documents\GitHub\target\apidocs\index.html = 1636572283288
+C:\Users\Radovan\Documents\GitHub\target\apidocs\jquery-ui.overrides.css = 1636572283335
+C:\Users\Radovan\Documents\GitHub\target\apidocs\member-search-index.js = 1636572283255
+C:\Users\Radovan\Documents\GitHub\target\apidocs\module-search-index.js = 1636572283248
+C:\Users\Radovan\Documents\GitHub\target\apidocs\overview-tree.html = 1636572283201
+C:\Users\Radovan\Documents\GitHub\target\apidocs\package-search-index.js = 1636572283255
+C:\Users\Radovan\Documents\GitHub\target\apidocs\package-summary.html = 1636572283117
+C:\Users\Radovan\Documents\GitHub\target\apidocs\package-tree.html = 1636572283117
+C:\Users\Radovan\Documents\GitHub\target\apidocs\package-use.html = 1636572283201
+C:\Users\Radovan\Documents\GitHub\target\apidocs\Privileges.html = 1636572282901
+C:\Users\Radovan\Documents\GitHub\target\apidocs\script.js = 1636572283304
+C:\Users\Radovan\Documents\GitHub\target\apidocs\search.js = 1636572283304
+C:\Users\Radovan\Documents\GitHub\target\apidocs\Storage.html = 1636572282932
+C:\Users\Radovan\Documents\GitHub\target\apidocs\StorageConfiguration.html = 1636572282948
+C:\Users\Radovan\Documents\GitHub\target\apidocs\StorageInitialization.html = 1636572282954
+C:\Users\Radovan\Documents\GitHub\target\apidocs\StorageManager.html = 1636572282985
+C:\Users\Radovan\Documents\GitHub\target\apidocs\StorageOperations.html = 1636572283017
+C:\Users\Radovan\Documents\GitHub\target\apidocs\StorageSettings.html = 1636572283054
+C:\Users\Radovan\Documents\GitHub\target\apidocs\stylesheet.css = 1636572283304
+C:\Users\Radovan\Documents\GitHub\target\apidocs\tag-search-index.js = 1636572283255
+C:\Users\Radovan\Documents\GitHub\target\apidocs\type-search-index.js = 1636572283255
+C:\Users\Radovan\Documents\GitHub\target\apidocs\User.html = 1636572283086

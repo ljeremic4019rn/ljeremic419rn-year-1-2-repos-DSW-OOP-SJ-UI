@@ -1,0 +1,42 @@
+Tree
+	Model:
+			TreeNode (1)- (interface klasa) kaze da neka klasa moze da se nadje u stablu, 
+										sve sto je vezano za TreeNode moze da dodje u stablo
+										moze da ima children i parents (kao RuNode i RuNodeComposite)
+						TreeNode ce biti wrapper za nas RuNode
+						(WRAPPER KLASA - znaci da obuhvati klasu tako da moze da se ubaci u Tree)
+						
+					*Moze da se takodje implementuje i MutableTreeNode(2) i DefaultMutableTreeNode(3)
+						
+						TreeNode je most basic i on mora da implementuje 7 stavki vezanih za sebe
+						MutableTreeNode je TreeNode + dodatne stavke, tako da moras da implementujes 13
+						
+						DefaultMutableTreeNode je osnovna/default implementacija MutableTreeNode i tu umesto da moras da 
+							implementujes svih 13 iz MutableTreeNode implementujes samo one koje ti ne odgovaraju
+							kako su implementovanje po defaultu 
+							(u nasem primeru ne odgovara dosta stvari tako da je dosta implemetovano)
+
+
+			
+			 TreeModel - sluzi da kaze sta je root node (OVO NIJE KORISVENO U NASEM PRIMERU NEGO VVV)
+			*DefaultTreeModel - on prima TreeNode koji ce biti root (da ne bi morao da pises celu klasu zbog jedne stavke) 
+			
+	View:
+			JTree (zavistan od TreeModel) - jedina funkcija je da poveze sve ostale elemente
+										JTree moze da se prikaze kada mu ti pokazes sta je TreeModel
+			
+			TreeCellRenderer - definise ikonice, koja je boja kada se selektuje nesto, kako izgleda kada je colapsed...
+			DefaultTreeCellRenderer - sluzi samo da ne bi morao da ti namestas boje vec da uzmes deafult koje su namestene 
+	
+	Controller:
+	
+			TreeCellEdditor - (KORISTIS DefaultTreeCellEditor, nije preporuceno bez deafult)
+								on omogucava editovanje stvari u tree, npr lable "workspace" (koji je kod nas root) mozes da mu promenis ime dok radi program
+								implementujes i ActionListener jer zelimo npr da na 3click ukljucimo editovanje imena
+			
+			TreeSelectionListener - (kada doubleclick na projekat on otvori neki tab npr)
+									Ima "path" ako kliknes na neki Node u Tree on moze da ti prikaze putanju od root do Node na koji si kliknuo
+									moze i npr sa getLastPathComponent da ti nadje poslednji Node u onom pathu na koji si kluknuo  
+			
+			_______________________
+			JPopupMenu - sluzi da izadje prozor kada kliknes desni click, i stavljs akcije sa ActionMenager
